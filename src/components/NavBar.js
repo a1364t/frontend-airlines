@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+// navlinks here goes to pages route
 function NavBar() {
 	return (
 		<div className="nav-container">
