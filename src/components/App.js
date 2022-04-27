@@ -1,7 +1,13 @@
+import Pages from "../pages/Pages";
+import { BrowserRouter } from "react-router-dom";
+
 function App() {
 	return (
 		<div className="App">
-			<h1>app</h1>
+			<BrowserRouter>
+				<h1>THIS WILL BE NAVIGATION</h1>
+				<Pages />
+			</BrowserRouter>
 		</div>
 	);
 }
