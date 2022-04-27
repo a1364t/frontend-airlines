@@ -1,8 +1,15 @@
 import React, { Component } from "react";
+import FlightForm from "../components/FlightForm";
+import FlightDisplay from "../components/FlightDisplay";
 
 export class Flights extends Component {
 	render() {
-		return <div>Flights</div>;
+		return (
+			<div>
+				<FlightForm />
+				<FlightDisplay />
+			</div>
+		);
 	}
 }
 
