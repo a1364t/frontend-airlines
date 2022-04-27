@@ -1,11 +1,12 @@
 import Pages from "../pages/Pages";
 import { BrowserRouter } from "react-router-dom";
+import NavBar from "./NavBar";
 
 function App() {
 	return (
 		<div className="App">
 			<BrowserRouter>
-				<h1>THIS WILL BE NAVIGATION</h1>
+				<NavBar />
 				<Pages />
 			</BrowserRouter>
 		</div>
