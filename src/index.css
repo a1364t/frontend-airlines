@@ -32,9 +32,18 @@ code {
 .active {
 	color: greenyellow;
 }
-
-.flight_content {
+.content {
+	text-align: center;
+	margin: 10px auto;
+}
+.content-content {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.content-content h3,
+.navlink-flights {
+	font-size: 15px;
+	color: black;
+	font-weight: 800;
+	border: 1px solid black;
 }

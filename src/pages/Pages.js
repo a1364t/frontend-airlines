@@ -22,7 +22,7 @@ function Pages() {
 				<Route path="/flights" element={<Flights />} />
 				<Route path="/planes" element={<Planes />} />
 				<Route path="/reservations" element={<Reservations />} />
-				<Route path="/show/:id" element={<Show />} />
+				<Route path="flight/show/:id" element={<Show />} />
 			</Routes>
 		</>
 	);
