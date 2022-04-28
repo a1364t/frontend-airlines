@@ -17,6 +17,9 @@ function NavBar() {
 			<NavLink to={"/reservations"}>
 				<h2>Reservations</h2>
 			</NavLink>
+			<NavLink to={"/flights"}>
+				<h2>Flights</h2>
+			</NavLink>
 		</div>
 	);
 }
