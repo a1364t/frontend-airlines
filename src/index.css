@@ -92,3 +92,9 @@ code {
 .seat:hover {
 	background-color: rgba(85, 85, 85, 0.808);
 }
+
+.login_container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
