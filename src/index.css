@@ -29,3 +29,12 @@ code {
 .nav-container a {
 	margin: 0 10px;
 }
+.active {
+	color: greenyellow;
+}
+
+.flight_content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	
+}
