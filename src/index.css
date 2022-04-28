@@ -47,3 +47,9 @@ code {
 	font-weight: 800;
 	border: 1px solid black;
 }
+
+.search_container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
