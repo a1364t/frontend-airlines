@@ -47,16 +47,54 @@ code {
 	font-weight: 800;
 	border: 1px solid black;
 }
+.content-header {
+	margin: 10px;
+}
 
 .search_container {
 	display: flex;
 	justify-content: center;
 	margin-top: 20px;
 }
+.grid-6 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
+	gap: 5px;
+}
+.grid-7 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
+	gap: 5px;
+}
+.grid-8 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
+	gap: 5px;
+}
+.grid-9 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
+	gap: 5px;
+}
+
+.seat {
+	display: flex;
+	background-color: rgba(128, 128, 128, 0.545);
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.seat:hover {
+	background-color: rgba(85, 85, 85, 0.808);
+}
 
 .login_container {
 	display: flex;
 	justify-content: center;
-	margin-top: 20px;	
+	margin-top: 20px;
 }
-
