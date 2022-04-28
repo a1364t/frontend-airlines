@@ -26,15 +26,24 @@ class Login extends Component {
 
 	handleSubmit(e) {
 		e.preventDefault();
-		this.props.onSubmit(this.state);		
+		console.log(this.state.email)
+		this.props.onSubmit(this.state.name);
+		
 		this.setState({
 			email: "",
 			password: "",						
-		});
-		
+		});		
 	}
-
-
+	
+	componentDidMount() {
+		const fetchLogin = () => {
+			axios.post(SERVER_URL).then((response) => {
+				console.log(response.data)
+			});
+		};
+		fetchLogin();		
+	}
+	
 
 
 	render(){

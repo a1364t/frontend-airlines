@@ -37,7 +37,14 @@ class SignUp extends Component {
 		});
 	}
 
-	
+	componentDidMount() {
+		const fetchLogin = () => {
+			axios.post(SERVER_URL).then((response) => {
+				console.log(response.data)
+			});
+		};
+		fetchLogin();		
+	}	
 
 
 	render(){
