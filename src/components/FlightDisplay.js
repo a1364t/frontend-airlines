@@ -22,4 +22,4 @@ class FlightDisplay extends Component {
 }
 
 export default FlightDisplay;
->>>>>>> 5ff3c5f7a09451995b6a49b3419086c24a5038af
+

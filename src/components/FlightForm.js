@@ -36,7 +36,7 @@ export class FlightForm extends Component {
 
 	render() {
 		return (
-			<form>
+			<form onSubmit={this.handleSubmit}>
 				<input
 					type="text"
 					required

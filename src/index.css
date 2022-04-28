@@ -38,3 +38,9 @@ code {
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	
 }
+
+.search_container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
